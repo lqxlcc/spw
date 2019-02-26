@@ -1,0 +1,48 @@
+
+#app{height:100%;}
+// #app .home #Head{overflow:hidden;z-index:100;position:fixed;width:100%;}
+// #Head a i{margin-right:0.133333rem;}
+// #app .home #foot{z-index:100;}
+.home{
+    width:100%;
+    height:100%;
+    display:flex;
+    flex-direction: column;
+    .head{
+        height:100px;
+        background:#ccc;
+    }
+    .foot{
+        height:100px;
+        background:#ccc;
+    }
+    .homeBox{
+        flex:1;
+        overflow-x:hidden;
+        .box{
+            display:flex;
+            flex-direction: column;
+            .de1{
+                // background:red;
+                flex:1;
+                font-size:64px;
+                input{
+                    border:1px solid #ccc;
+                    height:80px;
+                    width:600px;
+                    font-size:40px;
+                    line-height:80px;
+                }
+            }
+            .de2{
+                background:yellow;
+                flex:1;
+            }
+            .de3{
+                background:black;
+                flex:1;
+            }
+        }
+    }
+}
+

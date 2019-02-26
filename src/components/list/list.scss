@@ -1,0 +1,66 @@
+.list{
+    .title{
+        text-align: center;
+        background:#ccc;
+        color:#fff;
+        position:relative;
+        .icon{
+            position:absolute;
+            top:10px;
+            right:10px;
+        }
+    }
+    .conts{
+        padding:0 40px;
+        font-size:64px;
+        padding-top:80px;
+        .t1{
+            background:#FDF5E6;
+            display:flex;
+            justify-content:space-between;
+            border-radius:15px;
+            em{
+                color:#1f6097;
+            }
+                color:#FA6B5B;
+            i{
+            }
+        }
+        .wz{
+            color:#8B8682;
+            font-size:48px;
+            .imgBox{
+                display:inline-block;
+                width:400px;
+                height:400px;
+            }
+        }
+        .vmoshi{
+            p{
+                background:#F7F7F7;
+                margin-bottom:20px;
+                height:100px;
+                line-height:100px;
+                font-size:42px;
+                .btnc{
+                    display: inline-block;
+                    width: 100px;
+                    height:40px;
+                }
+            }
+        }
+        .tp{
+            text-align: center;
+            background:#ccc;
+            border-radius:20px;
+            margin-top:10px;
+            color:#fff;
+        }
+        .qx{
+            float:left;
+        }
+        .active{
+            background:#EE4000;
+        }
+    }
+}

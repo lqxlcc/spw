@@ -39,5 +39,5 @@ var router = new VueRouter({
         }
     ]
 })
-// okkk
+// oo
 export default router;

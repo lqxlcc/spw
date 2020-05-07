@@ -6,6 +6,7 @@ import Rem from './utils/getRem';
 import './sass/base.scss';
 import './assets/css/animate.css';
 import './assets/font-icon11/iconfont.css';
+/**主文件 */
 Rem.rem();
 new Vue({
   el: '#app',
